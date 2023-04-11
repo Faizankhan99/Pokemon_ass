@@ -1,0 +1,30 @@
+.active {
+    color: red;
+    font-size: 30px;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  
+  .default {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    /* padding: 2 rem; */
+    text-decoration: none;
+  }
+
+  .nav_main{
+        font-size: larger;
+        border: 2px solid red;
+        /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+        display: flex;
+        justify-content:space-around;
+      
+    }
+
+    .nav_main :hover{
+      background-color: yellow;
+    }
+  
